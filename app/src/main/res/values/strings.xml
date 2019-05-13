@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Landkarte</string>
+    <string name="main_text_view">Hello world</string>
+    <string name="fire">炎</string>
+</resources>
