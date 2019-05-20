@@ -6,40 +6,24 @@ import android.os.Bundle;
 
 
 import android.view.View;
-import android.widget.Button;
+import android.content.Intent;
 
-public class MainActivity extends AppCompatActivity {
-
-    private Button buttonPushMe;
-    private Button buttonPushMe2;
-    private Button buttonPushMe3;
-
+public class MainActivity extends AppCompatActivity
+        implements View.OnClickListener{  //クリックリスナーを実装
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        findViewById(R.id.button).setOnClickListener(this);  //リスナーをボタンに登録
 
-        buttonPushMe = (Button) findViewById(R.id.btn_pushme);
+    }
 
-
-        buttonPushMe.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                buttonPushMe.setText("ボタンが押されました");
-            }
-
-
-
-
-
-
-        });
-
-
-
-
-
+    //ボタンが押された時の処理
+    public void onClick(View view){
+        //ここに遷移するための処理を追加する
+        Intent intent = new Intent(this, MenuActivity.class);
+        startActivity(intent);
     }
 }
