@@ -38,6 +38,18 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="@string/button13"/>
+            <Button
+                android:id="@+id/button_14"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="(1,4)"/>
+            <Button
+                android:id="@+id/button_15"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="(1,5)"/>
         </TableRow>
 
         <!-- 2行目 -->
@@ -64,6 +76,18 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:text="@string/button23"/>
+            <Button
+                android:id="@+id/button_24"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="(2.4)"/>
+            <Button
+                android:id="@+id/button_25"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="(2,5)"/>
         </TableRow>
 
         <!-- 3行目 -->
@@ -90,6 +114,18 @@
                 android:layout_height="wrap_content"
                 android:text="@string/button33"
                 android:background="#ffff4444"/>
+            <Button
+                android:id="@+id/button_34"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="(3,4)"/>
+            <Button
+                android:id="@+id/button_35"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="(3,5)"/>
         </TableRow>
 
         <Button
