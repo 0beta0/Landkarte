@@ -20,4 +20,20 @@
     <string name="button33">(3,3)</string>
     <string name="button34">(3,4)</string>
     <string name="button35">(3,5)</string>
+
+    <string name="button41">(4,1)</string>
+    <string name="button42">(4,2)</string>
+    <string name="button43">(4,3)</string>
+    <string name="button44">(4,4)</string>
+    <string name="button45">(4,5)</string>
+    <string name="button51">(5,1)</string>
+    <string name="button52">(5,2)</string>
+    <string name="button53">(5,3)</string>
+    <string name="button54">(5,4)</string>
+    <string name="button55">(5,5)</string>
+    <string name="button61">(6,1)</string>
+    <string name="button62">(6,2)</string>
+    <string name="button63">(6,3)</string>
+    <string name="button64">(6,4)</string>
+    <string name="button65">(6,5)</string>
 </resources>
